@@ -14,4 +14,6 @@ A. Data Preparation :
 2. Membuat variabel data_path : hubungkan variabel dengan path dataset
 3. Identifikasi folder dan file dalam data_path menggunakan <code>os.listdir(data_path)
 4. Membuat variabel image_list (untuk gambar) : <code>os.listdir(data_path+'/(Lokasi Folder image)')
-5. 
+5. Membuat DataFrame untuk persiapan splitting :
+   - Melakukan pd.read pada file txt/csv yang mengandung unsur atribut gambar pada kasus ini :
+     <code>pd.read
